@@ -20,7 +20,7 @@ const NavBar = () => {
 
   return (
     <nav className="flex space-x-6 border-b mb-5 px-5 h-14 items-center">
-      <Link href="/">
+      <Link className="text-black" href="/">
         <AiOutlineBug />
       </Link>
       <ul className="flex space-x-6">
@@ -28,6 +28,7 @@ const NavBar = () => {
           <Link
             key={link.href}
             className={classNames({
+              "font-semibold": true,
               "text-zinc-900": currentPath === link.href,
               "text-zinc-500": currentPath !== link.href,
               "hover:text-zinc-700 transition-colors": true,
