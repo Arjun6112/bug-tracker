@@ -14,7 +14,7 @@ const NavBar = () => {
     },
     {
       name: "Issues",
-      href: "/issues",
+      href: "/issues/list",
     },
   ];
 
