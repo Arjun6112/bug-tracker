@@ -24,7 +24,7 @@ export default function RootLayout({
         <Theme appearance="light" accentColor="iris">
           <NavBar />
           <Container>
-            <main> {children}</main>
+            <main>{children}</main>
           </Container>
         </Theme>
       </body>
