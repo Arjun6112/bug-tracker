@@ -22,7 +22,8 @@ const NavBar = () => {
         <Flex justify="between">
           <Flex align="center" gap="3">
             <Link className="text-black" href="/">
-              <AiOutlineBug />
+              <Text size="5">🚀</Text>
+              {/* <RocketIcon fontSize="20" /> */}
             </Link>
             <NavLinks />
           </Flex>
@@ -51,7 +52,7 @@ const NavLinks = () => {
         <li key={link.href}>
           <Link
             className={classNames({
-              "font-semibold": true,
+              "font-medium": true,
               "nav-link": true,
               "!text-zinc-900": currentPath === link.href,
             })}
