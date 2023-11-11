@@ -15,7 +15,7 @@ const LatestIssues = async () => {
     },
   });
   return (
-    <Card>
+    <Card className="mb-5 lg:mb-0">
       <Heading size="4" mb="5">
         Latest Issues
       </Heading>

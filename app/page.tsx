@@ -26,7 +26,7 @@ export default async function Home() {
 
   return (
     <>
-      <Grid gap="5" columns={{ initial: "1", md: "2" }}>
+      <Grid gap="5" columns={{ initial: "1", md: "2" }} className="m-5 mb-5">
         <Flex gap="5" direction="column">
           <IssueSummary
             open={openIssues}
