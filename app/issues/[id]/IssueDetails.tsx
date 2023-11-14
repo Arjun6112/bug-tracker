@@ -38,7 +38,7 @@ const ChangeStatus = ({ issue }: { issue: Issue }) => {
       onValueChange={(status) => changeStatus(status)}
     >
       <Select.Trigger />
-      <Select.Content>
+      <Select.Content variant="soft">
         {Object.values(Status).map((status) => (
           <Select.Item key={status} value={status}>
             <IssueStatusBadge status={status} />
